@@ -3,32 +3,26 @@
 
 <h1 align="center"> Portfólio API's - Eduardo Ribeiro </h1>
 
-<h4 align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (API's), apresentado à Faculdade de Tecnologia de São José dos Campos - Profº Jessen Vidal, como parte dos requisitos para a obtenção do título de Tecnólogo em Analise e Desenvolvimento de Sistemas. </h4>
+<p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (API's), apresentado à Faculdade de Tecnologia de São José dos Campos - Profº Jessen Vidal, como parte dos requisitos para a obtenção do título de Tecnólogo em Analise e Desenvolvimento de Sistemas. </p>
   
 <br>
 
 
-<h2 align="center">🧑‍💻 Sobre Mim</h2>
+<h2 align="center">Sobre Mim 🧑‍💻</h2>
 
-<table>
-<tr>
-<td width="220px" align="center">
+<p align="center">
+  <img 
+    src="./images/foto-github.jpg" 
+    alt="Foto de Eduardo Ribeiro"
+    width="20%"
+    style="border-radius: 30px;"
+  >
+</p>
 
-<img 
-  src="./images/foto-github.jpg" 
-  alt="Foto de Eduardo Ribeiro"
-  width="180"
-  style="border-radius: 30px;"
-/>
-
-<h3>Desenvolvedor Backend</h3>
-
-</td>
-
-<td>
+<h3 align="center">Desenvolvedor Backend</h3>
 
 <p align="justify">
-Formado como técnico de informática no 
+Formado como técnico em Informática pelo 
 <a href="https://www.univap.br/colegios/unidade-centro">
 Colégio Univap - Unidade Centro
 </a> 
@@ -39,51 +33,69 @@ FATEC São José dos Campos - Prof. Jessen Vidal
 </p>
 
 <p align="justify">
-Tenho interesse principalmente em Desenvolvimento Backend, APIs, bancos de dados e infraestrutura.
+Possuo experiência prática com suporte interno e externo, sistemas de ERP, manipulação de dados com SQL, desenvolvimento de aplicações web e desktop, além de conhecimentos em Docker, AWS e integração entre serviços.
 </p>
 
-<p align="justify">
-Possuo experiência prática com suporte interno e externo, manipulação SQL, Docker, AWS e desenvolvimento de aplicações web e Desktop.
+<p align="center">
+  • 
+  <a href="https://github.com/eduardo-Rib">GitHub</a> 
+  • 
+  <a href="https://www.linkedin.com/in/eduardo-ribeiro-4b78002b2">LinkedIn</a> 
+  • 
+  <a href="https://www.instagram.com/dudu__rib">Instagram</a> 
+  •
 </p>
-
-</td>
-</tr>
-</table>
 
 ---
 
-<h3>🛠 Linguagens e Ferramentas</h3>
+<h3>🛠 Meus Principais Conhecimentos</h3>
 
-<h4>Principais Linguagens</h4>
+<ul>
+  <li>
+    <strong>Linguagens de programação:</strong>
+    <ul>
+      <li><code>Python</code> para desenvolvimento backend, APIs, automações e manipulação de dados;</li>
+      <li><code>JavaScript</code> e <code>TypeScript</code> para desenvolvimento de aplicações web e integração com serviços;</li>
+      <li><code>Java</code>, <code>C#</code> e <code>C++</code> utilizados em projetos acadêmicos, lógica de programação e desenvolvimento de aplicações;</li>
+      <li><code>HTML</code> e <code>CSS</code> para estruturação e estilização de interfaces web.</li>
+    </ul>
+  </li>
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,cs,cpp,javascript,typescript,html,css" height="40" />
-</div>
+  <br>
 
-<br>
+  <li>
+    <strong>Frameworks e ferramentas:</strong>
+    <ul>
+      <li><code>FastAPI</code> e <code>Flask</code> para criação de APIs e serviços backend;</li>
+      <li><code>Node.js</code> para desenvolvimento de aplicações e serviços web;</li>
+      <li><code>React</code>, <code>Next.js</code> e <code>Bootstrap</code> para construção de interfaces modernas e responsivas;</li>
+      <li><code>Git</code> e <code>GitHub</code> para versionamento de código e organização de projetos.</li>
+    </ul>
+  </li>
 
-<h4>Frameworks & Ferramentas</h4>
+  <br>
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=react,bootstrap,next,nodejs,flask,fastapi,docker,git,github" height="40" />
-</div>
+  <li>
+    <strong>Bancos de dados:</strong>
+    <ul>
+      <li><code>MySQL</code> e <code>MariaDB</code> para manipulação, manutenção e consultas em sistemas ERP;</li>
+      <li><code>PostgreSQL</code> para armazenamento de dados em aplicações backend;</li>
+      <li><code>MongoDB</code> para persistência de dados em aplicações com estrutura documental.</li>
+    </ul>
+  </li>
 
-<br>
+  <br>
 
-<h4>Bancos de Dados</h4>
+  <li>
+    <strong>Infraestrutura e DevOps:</strong>
+    <ul>
+      <li><code>Docker</code> para criação e execução de ambientes conteinerizados;</li>
+      <li><code>AWS</code> para publicação e hospedagem de aplicações em ambiente de nuvem;</li>
+      <li>Conhecimentos em configuração de servidores, deploy de aplicações e organização de ambientes com múltiplos serviços.</li>
+    </ul>
+  </li>
+</ul>
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongo" height="40" />
-</div>
-
-
-<h3> Redes </h3>
-<p align="left">
-    <a href="https://github.com/eduardo-Rib" style="margin:10px"><img src="https://skillicons.dev/icons?i=github" height="40"></a>
-    <a href="https://www.linkedin.com/in/eduardo-ribeiro-4b78002b2" style="margin:10px"><img src="https://skillicons.dev/icons?i=linkedin" height="40"></a>
-    <a href="mailto:eduardo10122005@gmail.com" style="margin:10px"><img src="https://skillicons.dev/icons?i=gmail" height="40"></a>
-    <a href="https://www.instagram.com/dudu__rib/" style="margin:10px"><img src="https://skillicons.dev/icons?i=instagram" height="40"></a>
-</p>
 
 <br>
 
