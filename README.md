@@ -100,9 +100,94 @@ Possuo experiência prática com suporte interno e externo, sistemas de ERP, man
 <br>
 
 
- <h2 align="center"> Meus Projetos 📂</h2>
+<h2 align="center"> Meus Projetos 📂</h2>
 
- <p > A fazer... </p>
+
+<p align="justify">
+Nesta seção estão reunidos os projetos desenvolvidos ao longo dos semestres do curso de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal.
+</p>
+
+---
+
+<details>
+  <summary><strong>1º Semestre: FATEC São José dos Campos - Prof. Jessen Vidal - Horus</strong></summary>
+
+<br>
+
+<h3>📌 Projeto Horus</h3>
+
+<h4>Objetivo do Projeto</h4>
+
+<p align="justify">
+O desafio consistia em desenvolver um site educacional para apresentar conceitos de Metodologia Ágil de forma clara, organizada e acessível.
+</p>
+
+<h4> Solução Desenvolvida</h4>
+
+<p align="justify">
+A equipe desenvolveu um site informativo com páginas de conteúdo, sistema de avaliações, coleta de feedbacks e área administrativa para consulta dos registros.
+</p>
+
+<h4>🔗 Links</h4>
+
+<ul>
+  <li>
+    <a href="https://github.com/m-germano/projetoAPI-horus">
+      Repositório do Projeto Horus
+    </a>
+  </li>
+  <li>
+    <a href="./1Sem/README.md">
+      README detalhado do 1º semestre
+    </a>
+  </li>
+</ul>
+
+</details>
+
+---
+
+<!-- 
+Modelo para os próximos projetos:
+
+<details>
+  <summary><strong>2º Semestre: Empresa Parceira - Nome do Projeto</strong></summary>
+
+<br>
+
+<h3>📌 Nome do Projeto</h3>
+
+<h4>Objetivo do Projeto</h4>
+
+<p align="justify">
+Resumo breve do objetivo/problema do projeto.
+</p>
+
+<h4>Solução Desenvolvida</h4>
+
+<p align="justify">
+Resumo breve da solução entregue pela equipe.
+</p>
+
+<h4>🔗 Links</h4>
+
+<ul>
+  <li>
+    <a href="LINK_DO_REPOSITORIO">
+      Repositório do Projeto
+    </a>
+  </li>
+  <li>
+    <a href="./2Sem/README.md">
+      README detalhado do 2º semestre
+    </a>
+  </li>
+</ul>
+
+</details>
+
+---
+-->
 
 
 </body>
