@@ -102,7 +102,6 @@ Possuo experiência prática com suporte interno e externo, sistemas de ERP, man
 
 <h2 align="center"> Meus Projetos 📂</h2>
 
-
 <p align="justify">
 Nesta seção estão reunidos os projetos desenvolvidos ao longo dos semestres do curso de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal.
 </p>
@@ -122,7 +121,7 @@ Nesta seção estão reunidos os projetos desenvolvidos ao longo dos semestres d
 O desafio consistia em desenvolver um site educacional para apresentar conceitos de Metodologia Ágil de forma clara, organizada e acessível.
 </p>
 
-<h4> Solução Desenvolvida</h4>
+<h4>Solução Desenvolvida</h4>
 
 <p align="justify">
 A equipe desenvolveu um site informativo com páginas de conteúdo, sistema de avaliações, coleta de feedbacks e área administrativa para consulta dos registros.
@@ -133,7 +132,7 @@ A equipe desenvolveu um site informativo com páginas de conteúdo, sistema de a
 <ul>
   <li>
     <a href="https://github.com/m-germano/projetoAPI-horus">
-      Repositório do Projeto Horus
+      Repositório do Projeto
     </a>
   </li>
   <li>
@@ -147,33 +146,30 @@ A equipe desenvolveu um site informativo com páginas de conteúdo, sistema de a
 
 ---
 
-<!-- 
-Modelo para os próximos projetos:
-
 <details>
-  <summary><strong>2º Semestre: Empresa Parceira - Nome do Projeto</strong></summary>
+  <summary><strong>2º Semestre: FATEC São José dos Campos - Prof. Jessen Vidal - IDScan</strong></summary>
 
 <br>
 
-<h3>📌 Nome do Projeto</h3>
+<h3>📌 IDScan</h3>
 
 <h4>Objetivo do Projeto</h4>
 
 <p align="justify">
-Resumo breve do objetivo/problema do projeto.
+O objetivo foi desenvolver uma aplicação Java Desktop capaz de extrair informações de imagens de documentos de identidade e armazená-las em um banco de dados local.
 </p>
 
 <h4>Solução Desenvolvida</h4>
 
 <p align="justify">
-Resumo breve da solução entregue pela equipe.
+A equipe desenvolveu um aplicativo desktop para leitura de RG, utilizando OCR e inteligência artificial local para extrair, organizar, armazenar e editar os dados em MySQL.
 </p>
 
 <h4>🔗 Links</h4>
 
 <ul>
   <li>
-    <a href="LINK_DO_REPOSITORIO">
+    <a href="https://github.com/Titus-System/2semestre-ADS">
       Repositório do Projeto
     </a>
   </li>
@@ -187,8 +183,82 @@ Resumo breve da solução entregue pela equipe.
 </details>
 
 ---
--->
 
+<details>
+  <summary><strong>3º Semestre: Dom Rock - InsightFlow</strong></summary>
+
+<br>
+
+<h3>📌 InsightFlow</h3>
+
+<h4>Objetivo do Projeto</h4>
+
+<p align="justify">
+O desafio foi criar uma plataforma web para tornar dados públicos de importação e exportação do Brasil mais acessíveis, visuais e úteis para análise comercial.
+</p>
+
+<h4>Solução Desenvolvida</h4>
+
+<p align="justify">
+A equipe desenvolveu uma aplicação com gráficos, rankings, filtros, indicadores estatísticos e previsões de tendência sobre dados de comércio exterior.
+</p>
+
+<h4>🔗 Links</h4>
+
+<ul>
+  <li>
+    <a href="https://github.com/Titus-System/InsightFlow">
+      Repositório do Projeto
+    </a>
+  </li>
+  <li>
+    <a href="./3Sem/README.md">
+      README detalhado do 3º semestre
+    </a>
+  </li>
+</ul>
+
+</details>
+
+---
+
+<details>
+  <summary><strong>4º Semestre: TecSys Brasil - Nexa</strong></summary>
+
+<br>
+
+<h3>📌 Nexa</h3>
+
+<h4>Objetivo do Projeto</h4>
+
+<p align="justify">
+O objetivo foi automatizar a elaboração de instruções de registro aduaneiro, reduzindo erros manuais em dados como Part Number, fabricante, origem e classificação fiscal.
+</p>
+
+<h4>Solução Desenvolvida</h4>
+
+<p align="justify">
+A equipe desenvolveu uma aplicação integrada com IA, backend, frontend e agentes especializados para extrair Part Numbers, consultar informações técnicas e gerar descrições de produtos.
+</p>
+
+<h4>🔗 Links</h4>
+
+<ul>
+  <li>
+    <a href="https://github.com/Titus-System/Nexa">
+      Repositório do Projeto
+    </a>
+  </li>
+  <li>
+    <a href="./4Sem/README.md">
+      README detalhado do 4º semestre
+    </a>
+  </li>
+</ul>
+
+</details>
+
+---
 
 </body>
 </html>
