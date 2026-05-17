@@ -33,6 +33,7 @@
 |---|---|
 | Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
 | Contexto | Projeto acadêmico desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas |
+| Equipe | Titus Systems |
 | Produto | IDScan |
 
 ---

@@ -35,6 +35,7 @@
 | Área de atuação | Soluções para comércio exterior, tecnologia e processos aduaneiros |
 | Representante | Creonice Honório |
 | Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Equipe | Titus Systems |
 | Produto | Nexa |
 
 ---

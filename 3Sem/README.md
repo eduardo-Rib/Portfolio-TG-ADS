@@ -35,6 +35,7 @@
 | Área de atuação | Tecnologia, dados, inteligência artificial e soluções para análise de informações |
 | Representante | Felipe Santos |
 | Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Equipe | Titus Systems |
 | Produto | InsightFlow |
 
 ---
