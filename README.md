@@ -3,7 +3,7 @@
 
 <h1 align="center"> Portfólio API's - Eduardo Ribeiro </h1>
 
-<p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (API's), apresentado à Faculdade de Tecnologia de São José dos Campos - Profº Jessen Vidal, como parte dos requisitos para a obtenção do título de Tecnólogo em Analise e Desenvolvimento de Sistemas. </p>
+<p align="justify"> Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (API's), apresentado à Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal, como parte dos requisitos para a obtenção do título de Tecnólogo em Análise e Desenvolvimento de Sistemas. </p>
   
 <br>
 
@@ -21,21 +21,21 @@
 
 <h3 align="center">Desenvolvedor Backend</h3>
 
-<p align="justify">
-Sou Eduardo Ribeiro, formado como técnico em Informática e atualmente cursando Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal. Tenho interesse principalmente em desenvolvimento backend, bancos de dados, infraestrutura, APIs e automação de processos.
-</p>
+<h3>Informações Pessoais</h3>
+
+<ul>
+  <li><strong>Nome completo:</strong> Eduardo Fonseca Ribeiro</li>
+  <li><strong>Idade:</strong> idade a preencher</li>
+  <li><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal</li>
+</ul>
 
 <p align="justify">
-Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e tecnológica, com forte conexão com o mercado de trabalho e projetos aplicados. Além disso, meu pai estudou na FATEC de São José dos Campos, o que também influenciou minha escolha pela instituição.
-</p>
-
-<p align="justify">
-Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em desenvolvimento backend, integração de sistemas, banco de dados e soluções voltadas para ambientes corporativos.
+Sou Eduardo Fonseca Ribeiro, estudante de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal e formado como técnico em Informática. Tenho interesse principalmente em desenvolvimento backend, bancos de dados, infraestrutura, APIs e automação de processos.
 </p>
 
 ---
 
-<h3>🎓 Formação Acadêmica</h3>
+<h3>🎓 Histórico Acadêmico</h3>
 
 <ul>
   <li>
@@ -44,13 +44,13 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
       Colégio Técnico Antônio Teixeira Fernandes - Univap Centro
     </a>
     <br>
-    Durante o curso técnico, desenvolvi minhas primeiras bases na área de informática, incluindo lógica de programação, redes, sistemas operacionais, hardware e desenvolvimento com linguagens como <code>C++</code>, <code>Python</code>, <code>C#</code>, <code>JavaScript</code> e <code>Java</code>.
+    Curso técnico concluído, no qual desenvolvi minhas primeiras bases na área de informática, incluindo lógica de programação, redes, sistemas operacionais, hardware e desenvolvimento com linguagens como <code>C++</code>, <code>Python</code>, <code>C#</code>, <code>JavaScript</code> e <code>Java</code>.
   </li>
 
   <br>
 
   <li>
-    <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> - 
+    <strong>Curso superior em andamento em Análise e Desenvolvimento de Sistemas</strong> - 
     <a href="https://fatecsjc-prd.azurewebsites.net/">
       FATEC São José dos Campos - Prof. Jessen Vidal
     </a>
@@ -61,13 +61,21 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
 
 ---
 
-<h3>💼 Experiência Profissional</h3>
+<h3>Motivação para Entrar na FATEC</h3>
+
+<p align="justify">
+Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e tecnológica, com projetos aplicados e forte conexão com o mercado de trabalho. Além disso, meu pai estudou na FATEC de São José dos Campos, influência familiar que também contribuiu para minha escolha pela instituição.
+</p>
+
+---
+
+<h3>💼 Histórico Profissional</h3>
 
 <ul>
   <li>
     <strong>Oriente Nerd Comércio de Brinquedos e Colecionáveis Ltda</strong>
     <br>
-    <em>Vendedor Freelancer | Novembro/2022 até Abril/2023</em>
+    <em>Vendedor freelancer | Nov/2022 a Abr/2023</em>
     <br>
     Foi minha primeira experiência profissional, aos 16 anos, onde tive contato com atendimento ao público, responsabilidade profissional e conciliação entre ensino médio, curso técnico e trabalho.
   </li>
@@ -77,7 +85,7 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
   <li>
     <strong>SENTRAN Serviços Especializados de Trânsito Ltda</strong>
     <br>
-    <em>Jovem Aprendiz - Técnico TI | Janeiro/2024 até Março/2024</em>
+    <em>Jovem Aprendiz - Técnico TI | Jan/2024 a Mar/2024</em>
     <br>
     Atuei em um ambiente corporativo de TI, tendo contato prático com suporte, redes e hardware. Apesar do curto período, a experiência foi importante para entender a rotina técnica dentro de uma empresa.
   </li>
@@ -87,7 +95,7 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
   <li>
     <strong>Colégio Técnico Antônio Teixeira Fernandes - Colégio Univap Centro</strong>
     <br>
-    <em>Estagiário de Informática | Agosto/2024 até Dezembro/2024</em>
+    <em>Estagiário de Informática | Ago/2024 a Dez/2024</em>
     <br>
     Atuei auxiliando alunos no desenvolvimento de projetos e atividades práticas, além de apoiar a organização e o funcionamento dos laboratórios de informática.
   </li>
@@ -97,11 +105,25 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
   <li>
     <strong>Sistema Pallas</strong>
     <br>
-    <em>Estagiário de Suporte | Fevereiro/2025 até o momento</em>
+    <em>Estagiário de Suporte | desde Fev/2025</em>
     <br>
     Atuo com suporte interno e externo ao sistema, aplicando conhecimentos de banco de dados, redes, hardware, sistemas operacionais e documentação. Também desenvolvo automações com Python para apoiar tarefas relacionadas a planilhas e processos internos.
   </li>
 </ul>
+
+---
+
+<h3>Informações de Contato</h3>
+
+<p align="center">
+  • 
+  <a href="https://github.com/eduardo-Rib">GitHub</a> 
+  • 
+  <a href="https://www.linkedin.com/in/eduardo-ribeiro-4b78002b2">LinkedIn</a> 
+  • 
+  <a href="https://www.instagram.com/dudu__rib">Instagram</a> 
+  •
+</p>
 
 ---
 
@@ -153,17 +175,6 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
   </li>
 </ul>
 
-<p align="center">
-  • 
-  <a href="https://github.com/eduardo-Rib">GitHub</a> 
-  • 
-  <a href="https://www.linkedin.com/in/eduardo-ribeiro-4b78002b2">LinkedIn</a> 
-  • 
-  <a href="https://www.instagram.com/dudu__rib">Instagram</a> 
-  •
-</p>
-
-
 <br>
 
 
@@ -173,159 +184,19 @@ Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em d
 Nesta seção estão reunidos os projetos desenvolvidos ao longo dos semestres do curso de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal.
 </p>
 
----
+<h3>Resumo dos Projetos</h3>
 
-<details>
-  <summary><strong>1º Semestre: FATEC São José dos Campos - Prof. Jessen Vidal - Horus</strong></summary>
-
-<br>
-
-<h3>📌 Projeto Horus</h3>
-
-<h4>Objetivo do Projeto</h4>
+| Projeto | Período | Empresa parceira | Solução desenvolvida | README detalhado |
+| --- | --- | --- | --- | --- |
+| Horus | 1º Semestre — 2024-1 | FATEC São José dos Campos - Prof. Jessen Vidal | Site educacional sobre Metodologia Ágil, com conteúdos, avaliações, feedbacks e área administrativa. | [1Sem/README.md](./1Sem/README.md) |
+| IDScan | 2º Semestre — 2024-2 | FATEC São José dos Campos - Prof. Jessen Vidal | Aplicação desktop em Java para extração de informações de RG por OCR/IA local e armazenamento em MySQL. | [2Sem/README.md](./2Sem/README.md) |
+| InsightFlow | 3º Semestre — 2025-1 | Dom Rock | Plataforma web para análise de importações e exportações brasileiras, com gráficos, rankings, filtros, indicadores e previsões. | [3Sem/README.md](./3Sem/README.md) |
+| Nexa | 4º Semestre — 2025-2 | TecSys Brasil | Aplicação web com backend, frontend e agentes de IA para apoiar a geração de instruções de registro aduaneiro. | [4Sem/README.md](./4Sem/README.md) |
 
 <p align="justify">
-O desafio consistia em desenvolver um site educacional para apresentar conceitos de Metodologia Ágil de forma clara, organizada e acessível.
+Os projetos referentes ao 5º e 6º semestres serão adicionados após sua conclusão.
 </p>
 
-<h4>Solução Desenvolvida</h4>
-
-<p align="justify">
-A equipe desenvolveu um site informativo com páginas de conteúdo, sistema de avaliações, coleta de feedbacks e área administrativa para consulta dos registros.
-</p>
-
-<h4>🔗 Links</h4>
-
-<ul>
-  <li>
-    <a href="https://github.com/m-germano/projetoAPI-horus">
-      Repositório do Projeto
-    </a>
-  </li>
-  <li>
-    <a href="./1Sem/README.md">
-      README detalhado do 1º semestre
-    </a>
-  </li>
-</ul>
-
-</details>
-
----
-
-<details>
-  <summary><strong>2º Semestre: FATEC São José dos Campos - Prof. Jessen Vidal - IDScan</strong></summary>
-
-<br>
-
-<h3>📌 IDScan</h3>
-
-<h4>Objetivo do Projeto</h4>
-
-<p align="justify">
-O objetivo foi desenvolver uma aplicação Java Desktop capaz de extrair informações de imagens de documentos de identidade e armazená-las em um banco de dados local.
-</p>
-
-<h4>Solução Desenvolvida</h4>
-
-<p align="justify">
-A equipe desenvolveu um aplicativo desktop para leitura de RG, utilizando OCR e inteligência artificial local para extrair, organizar, armazenar e editar os dados em MySQL.
-</p>
-
-<h4>🔗 Links</h4>
-
-<ul>
-  <li>
-    <a href="https://github.com/Titus-System/2semestre-ADS">
-      Repositório do Projeto
-    </a>
-  </li>
-  <li>
-    <a href="./2Sem/README.md">
-      README detalhado do 2º semestre
-    </a>
-  </li>
-</ul>
-
-</details>
-
----
-
-<details>
-  <summary><strong>3º Semestre: Dom Rock - InsightFlow</strong></summary>
-
-<br>
-
-<h3>📌 InsightFlow</h3>
-
-<h4>Objetivo do Projeto</h4>
-
-<p align="justify">
-O desafio foi criar uma plataforma web para tornar dados públicos de importação e exportação do Brasil mais acessíveis, visuais e úteis para análise comercial.
-</p>
-
-<h4>Solução Desenvolvida</h4>
-
-<p align="justify">
-A equipe desenvolveu uma aplicação com gráficos, rankings, filtros, indicadores estatísticos e previsões de tendência sobre dados de comércio exterior.
-</p>
-
-<h4>🔗 Links</h4>
-
-<ul>
-  <li>
-    <a href="https://github.com/Titus-System/InsightFlow">
-      Repositório do Projeto
-    </a>
-  </li>
-  <li>
-    <a href="./3Sem/README.md">
-      README detalhado do 3º semestre
-    </a>
-  </li>
-</ul>
-
-</details>
-
----
-
-<details>
-  <summary><strong>4º Semestre: TecSys Brasil - Nexa</strong></summary>
-
-<br>
-
-<h3>📌 Nexa</h3>
-
-<h4>Objetivo do Projeto</h4>
-
-<p align="justify">
-O objetivo foi automatizar a elaboração de instruções de registro aduaneiro, reduzindo erros manuais em dados como Part Number, fabricante, origem e classificação fiscal.
-</p>
-
-<h4>Solução Desenvolvida</h4>
-
-<p align="justify">
-A equipe desenvolveu uma aplicação integrada com IA, backend, frontend e agentes especializados para extrair Part Numbers, consultar informações técnicas e gerar descrições de produtos.
-</p>
-
-<h4>🔗 Links</h4>
-
-<ul>
-  <li>
-    <a href="https://github.com/Titus-System/Nexa">
-      Repositório do Projeto
-    </a>
-  </li>
-  <li>
-    <a href="./4Sem/README.md">
-      README detalhado do 4º semestre
-    </a>
-  </li>
-</ul>
-
-</details>
-
----
 
 </body>
 </html>
