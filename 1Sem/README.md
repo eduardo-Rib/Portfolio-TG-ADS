@@ -1,7 +1,7 @@
 # Horus - 1º Semestre
 
 <p align="center">
-  <strong>1º semestre de 2024</strong> • 
+  <strong>API 1</strong> • <strong>1º Semestre</strong> • <strong>2024-1</strong> • 
   <a href="https://fatecsjc-prd.azurewebsites.net/">
     FATEC São José dos Campos - Prof. Jessen Vidal
   </a>
@@ -27,8 +27,21 @@
 
 ---
 
+## Parceiro acadêmico
+
+| Item | Descrição |
+|---|---|
+| Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Contexto | Projeto acadêmico desenvolvido no 1º semestre do curso de Análise e Desenvolvimento de Sistemas |
+| Equipe | Grupo Horus |
+| Produto | Horus |
+
+---
+
 ## Sumário
 
+- [Identificação do projeto](#identificação-do-projeto)
+- [Parceiro acadêmico](#parceiro-acadêmico)
 - [Problema proposto](#problema-proposto)
 - [Solução desenvolvida](#solução-desenvolvida)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -41,17 +54,21 @@
 
 ## Problema proposto
 
-O desafio consistia em criar um site que ajudasse usuários a compreenderem a Metodologia Ágil de forma clara, organizada e acessível. A aplicação deveria apresentar conceitos importantes do Scrum, como Product Backlog, Sprint, Sprint Planning, Sprint Review, Daily, Retrospective, DoR, DoD, Planning Poker, Kanban, MVP e outros elementos do processo ágil.
-
-Além disso, o site precisava incluir mecanismos de avaliação para que o usuário pudesse testar seus conhecimentos e registrar feedbacks sobre o conteúdo apresentado. Dessa forma, o projeto não deveria ser apenas uma página estática, mas sim uma aplicação com navegação, organização de conteúdo e interação básica com o usuário.
+Estudantes e usuários iniciantes costumam ter dificuldade para compreender a Metodologia Ágil, especialmente quando estão tendo o primeiro contato com Scrum e seus principais artefatos, eventos e práticas.
+Os conceitos de Product Backlog, Sprint, Sprint Planning, Sprint Review, Daily, Retrospective, DoR, DoD, Planning Poker, Kanban e MVP podem ficar dispersos ou ser apresentados de forma pouco acessível para quem ainda não conhece o assunto.
+Sem uma forma de avaliação, torna-se difícil identificar se o conteúdo apresentado foi realmente compreendido pelo usuário.
+Além disso, sem coleta de feedback, não há retorno estruturado sobre a experiência de navegação, a clareza dos conteúdos e os pontos que poderiam ser melhorados.
 
 ---
 
 ## Solução desenvolvida
 
-A solução criada pela equipe foi um site informativo sobre Metodologia Ágil, estruturado com páginas de conteúdo, avaliações e área administrativa. O sistema foi desenvolvido com foco em simplicidade, clareza visual e facilidade de navegação.
+A equipe desenvolveu uma aplicação web no formato de site educacional sobre Scrum e Metodologia Ágil.
+O sistema foi estruturado com páginas de conteúdo para apresentar os principais conceitos de forma simples, organizada e acessível.
+Também foram incluídas avaliações de conhecimento para apoiar a verificação da aprendizagem dos usuários.
+A solução contou com coleta de feedbacks sobre a experiência e os conteúdos apresentados.
+Além disso, foi criada uma área administrativa para consulta dos registros gerados pelas avaliações e feedbacks.
 
-O projeto permitia que o usuário acessasse explicações sobre os principais conceitos ágeis, realizasse avaliações de conhecimento e enviasse feedbacks. Também havia um fluxo administrativo para visualização do histórico de avaliações, reforçando a proposta de não apenas apresentar conteúdo, mas também coletar dados sobre a experiência do usuário.
 
 ---
 
@@ -59,15 +76,15 @@ O projeto permitia que o usuário acessasse explicações sobre os principais co
 
 | Tecnologia | Aplicação no projeto |
 |---|---|
-| HTML | Estruturação das páginas do site |
-| CSS | Estilização visual das páginas |
-| JavaScript | Apoio à interatividade da interface |
-| Bootstrap | Padronização visual e responsividade |
-| Python | Linguagem utilizada no backend |
-| Flask | Framework web utilizado na aplicação |
-| Flask-SQLAlchemy | Apoio à persistência de dados |
-| Flask-Login | Controle de autenticação |
-| Flask-Bcrypt | Segurança no tratamento de senhas |
+| HTML | Estruturação das páginas de conteúdo, avaliação, feedback e área administrativa |
+| CSS | Estilização visual das páginas e ajustes de layout |
+| JavaScript | Apoio à interatividade da interface do site educacional |
+| Bootstrap | Padronização visual, componentes de interface e responsividade |
+| Python | Linguagem utilizada no backend da aplicação web |
+| Flask | Framework utilizado para criação das rotas e integração das páginas |
+| Flask-SQLAlchemy | Persistência e consulta dos dados gerados pela aplicação |
+| Flask-Login | Controle de autenticação para acesso à área administrativa |
+| Flask-Bcrypt | Tratamento seguro de senhas no fluxo de autenticação |
 | Git e GitHub | Versionamento, organização e publicação do repositório |
 | Scrum | Organização do trabalho em equipe durante as sprints |
 
@@ -75,11 +92,15 @@ O projeto permitia que o usuário acessasse explicações sobre os principais co
 
 ## Minhas contribuições
 
-Atuei como Product Owner da equipe e também contribuí com o desenvolvimento das páginas da aplicação. Minha participação combinou atividades de comunicação com o cliente, alinhamento com o time, organização das entregas e implementação de páginas e funcionalidades do sistema.
+Atuei como Product Owner e Desenvolvedor no projeto Horus.
+Minha participação combinou atividades de alinhamento com o cliente/professor responsável, organização dos requisitos e acompanhamento das entregas.
+Como Product Owner, ajudei a priorizar o que deveria compor o MVP do site educacional e acompanhei a evolução das sprints.
+Também apoiei a comunicação do time, ajudando a transformar a necessidade de ensinar Scrum em páginas, avaliações e feedbacks.
+Como Desenvolvedor, contribuí com a estruturação de páginas, organização dos conteúdos e apoio em funcionalidades ligadas à avaliação, feedback e área administrativa.
 
 ### Contribuições como Product Owner
 
-Como Product Owner, minha atuação foi voltada para aproximar o projeto das necessidades do cliente e manter a equipe alinhada com a proposta do desafio. O trabalho não se limitou ao desenvolvimento técnico, pois também envolveu a organização dos requisitos, definição de prioridades e acompanhamento das entregas ao longo das sprints.
+Como Product Owner, minha atuação foi voltada para aproximar o projeto das necessidades do cliente/professor responsável e manter a equipe alinhada com a proposta do desafio. O trabalho não se limitou ao desenvolvimento técnico, pois também envolveu a organização dos requisitos, definição de prioridades e acompanhamento das entregas ao longo das sprints.
 
 Durante o projeto, participei da interpretação do problema proposto, ajudei a transformar as necessidades apresentadas em funcionalidades para o sistema e acompanhei se o produto desenvolvido estava de acordo com o objetivo principal: ensinar Metodologia Ágil de forma simples, acessível e funcional.
 
@@ -97,18 +118,18 @@ Minha participação técnica também envolveu o contato com tecnologias utiliza
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
-| HTML | Sei fazer com autonomia | Estruturação das páginas e organização do conteúdo do site |
-| CSS | Sei fazer com autonomia | Estilização e ajustes visuais da interface |
-| Bootstrap | Sei fazer com autonomia | Apoio à padronização visual e responsividade das páginas |
-| JavaScript | Sei fazer com apoio | Apoio à interatividade e comportamento da interface |
-| Python | Sei fazer com apoio | Participação no desenvolvimento da aplicação backend |
-| Flask | Sei fazer com apoio | Apoio na construção e integração da aplicação web |
-| Flask-SQLAlchemy | Sei fazer com apoio | Contato com a persistência de dados da aplicação |
-| Flask-Login | Sei fazer com apoio | Apoio ao fluxo de autenticação da área administrativa |
-| Flask-Bcrypt | Sei fazer com apoio | Contato com práticas de segurança no tratamento de senhas |
-| Git e GitHub | Sei fazer com autonomia | Versionamento do código e organização do repositório |
-| Scrum | Sei fazer com autonomia | Organização das sprints, acompanhamento das entregas e alinhamento com a equipe |
-| Product Owner | Sei fazer com autonomia | Levantamento de requisitos, priorização de entregas e comunicação com o cliente |
+| HTML | Faço/uso com autonomia | Estruturação das páginas e organização do conteúdo do site |
+| CSS | Faço/uso com autonomia | Estilização e ajustes visuais da interface |
+| Bootstrap | Faço/uso com autonomia | Apoio à padronização visual e responsividade das páginas |
+| JavaScript | Faço/uso com ajuda | Apoio à interatividade e comportamento da interface |
+| Python | Faço/uso com ajuda | Participação no desenvolvimento da aplicação backend |
+| Flask | Faço/uso com ajuda | Apoio na construção e integração da aplicação web |
+| Flask-SQLAlchemy | Faço/uso com ajuda | Contato com a persistência de dados da aplicação |
+| Flask-Login | Faço/uso com ajuda | Apoio ao fluxo de autenticação da área administrativa |
+| Flask-Bcrypt | Faço/uso com ajuda | Contato com práticas de segurança no tratamento de senhas |
+| Git e GitHub | Faço/uso com autonomia | Versionamento do código e organização do repositório |
+| Scrum | Faço/uso com autonomia | Organização das sprints, acompanhamento das entregas e alinhamento com a equipe |
+| Product Owner | Faço/uso com autonomia | Levantamento de requisitos, priorização de entregas e comunicação com o cliente/professor responsável |
 
 ---
 
@@ -116,12 +137,12 @@ Minha participação técnica também envolveu o contato com tecnologias utiliza
 
 | Soft skill | Situação em que foi exercitada |
 |---|---|
-| Comunicação | Atuei no alinhamento entre cliente e equipe, buscando entender as necessidades do projeto e repassar as informações de forma clara para o time |
-| Organização | Auxiliei na organização das tarefas, prioridades e entregas ao longo das sprints |
-| Protagonismo | Assumi responsabilidades como Product Owner e também participei da implementação técnica do projeto |
-| Colaboração | Trabalhei em conjunto com os integrantes da equipe para desenvolver as páginas, organizar conteúdos e concluir as entregas |
-| Adaptabilidade | Por ser o primeiro projeto API, precisei me adaptar ao modelo de desenvolvimento por sprints, ao trabalho em equipe e ao contato com novas tecnologias |
-| Visão de produto | Busquei manter o desenvolvimento alinhado ao objetivo principal do projeto: criar uma aplicação educacional simples, funcional e acessível |
+| Comunicação | Atuei no alinhamento com o cliente/professor responsável e repassei ao time as necessidades do site educacional sobre Scrum |
+| Organização | Auxiliei na organização dos requisitos, tarefas e prioridades para manter o foco no MVP durante as sprints |
+| Protagonismo | Assumi responsabilidades como Product Owner e também participei da estruturação das páginas e conteúdos do sistema |
+| Colaboração | Trabalhei com a equipe para transformar os conteúdos de Metodologia Ágil em páginas, avaliações e feedbacks |
+| Adaptabilidade | Adaptei-me ao primeiro projeto API, à rotina de sprints e ao uso combinado de tecnologias web no desenvolvimento do Horus |
+| Visão de produto | Ajudei a transformar a necessidade de ensinar Scrum em uma aplicação educacional simples, navegável e com retorno dos usuários |
 
 ---
 
