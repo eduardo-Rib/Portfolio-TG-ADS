@@ -22,29 +22,86 @@
 <h3 align="center">Desenvolvedor Backend</h3>
 
 <p align="justify">
-Formado como técnico em Informática pelo 
-<a href="https://www.univap.br/colegios/unidade-centro">
-Colégio Univap - Unidade Centro
-</a> 
-e atualmente cursando Análise e Desenvolvimento de Sistemas na 
-<a href="https://fatecsjc-prd.azurewebsites.net/">
-FATEC São José dos Campos - Prof. Jessen Vidal
-</a>.
+Sou Eduardo Ribeiro, formado como técnico em Informática e atualmente cursando Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal. Tenho interesse principalmente em desenvolvimento backend, bancos de dados, infraestrutura, APIs e automação de processos.
 </p>
 
 <p align="justify">
-Possuo experiência prática com suporte interno e externo, sistemas de ERP, manipulação de dados com SQL, desenvolvimento de aplicações web e desktop, além de conhecimentos em Docker, AWS e integração entre serviços.
+Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e tecnológica, com forte conexão com o mercado de trabalho e projetos aplicados. Além disso, meu pai estudou na FATEC de São José dos Campos, o que também influenciou minha escolha pela instituição.
 </p>
 
-<p align="center">
-  • 
-  <a href="https://github.com/eduardo-Rib">GitHub</a> 
-  • 
-  <a href="https://www.linkedin.com/in/eduardo-ribeiro-4b78002b2">LinkedIn</a> 
-  • 
-  <a href="https://www.instagram.com/dudu__rib">Instagram</a> 
-  •
+<p align="justify">
+Atualmente busco evoluir profissionalmente na área de tecnologia, com foco em desenvolvimento backend, integração de sistemas, banco de dados e soluções voltadas para ambientes corporativos.
 </p>
+
+---
+
+<h3>🎓 Formação Acadêmica</h3>
+
+<ul>
+  <li>
+    <strong>Técnico em Informática</strong> - 
+    <a href="https://www.univap.br/colegios/unidade-centro">
+      Colégio Técnico Antônio Teixeira Fernandes - Univap Centro
+    </a>
+    <br>
+    Durante o curso técnico, desenvolvi minhas primeiras bases na área de informática, incluindo lógica de programação, redes, sistemas operacionais, hardware e desenvolvimento com linguagens como <code>C++</code>, <code>Python</code>, <code>C#</code>, <code>JavaScript</code> e <code>Java</code>.
+  </li>
+
+  <br>
+
+  <li>
+    <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> - 
+    <a href="https://fatecsjc-prd.azurewebsites.net/">
+      FATEC São José dos Campos - Prof. Jessen Vidal
+    </a>
+    <br>
+    No curso superior, aprofundei os conhecimentos adquiridos no técnico, principalmente em estrutura de dados, desenvolvimento de sistemas, infraestrutura de redes, banco de dados, gestão de projetos, metodologias ágeis e desenvolvimento em equipe por meio de projetos semestrais.
+  </li>
+</ul>
+
+---
+
+<h3>💼 Experiência Profissional</h3>
+
+<ul>
+  <li>
+    <strong>Oriente Nerd Comércio de Brinquedos e Colecionáveis Ltda</strong>
+    <br>
+    <em>Vendedor Freelancer | Novembro/2022 até Abril/2023</em>
+    <br>
+    Foi minha primeira experiência profissional, aos 16 anos, onde tive contato com atendimento ao público, responsabilidade profissional e conciliação entre ensino médio, curso técnico e trabalho.
+  </li>
+
+  <br>
+
+  <li>
+    <strong>SENTRAN Serviços Especializados de Trânsito Ltda</strong>
+    <br>
+    <em>Jovem Aprendiz - Técnico TI | Janeiro/2024 até Março/2024</em>
+    <br>
+    Atuei em um ambiente corporativo de TI, tendo contato prático com suporte, redes e hardware. Apesar do curto período, a experiência foi importante para entender a rotina técnica dentro de uma empresa.
+  </li>
+
+  <br>
+
+  <li>
+    <strong>Colégio Técnico Antônio Teixeira Fernandes - Colégio Univap Centro</strong>
+    <br>
+    <em>Estagiário de Informática | Agosto/2024 até Dezembro/2024</em>
+    <br>
+    Atuei auxiliando alunos no desenvolvimento de projetos e atividades práticas, além de apoiar a organização e o funcionamento dos laboratórios de informática.
+  </li>
+
+  <br>
+
+  <li>
+    <strong>Sistema Pallas</strong>
+    <br>
+    <em>Estagiário de Suporte | Fevereiro/2025 até o momento</em>
+    <br>
+    Atuo com suporte interno e externo ao sistema, aplicando conhecimentos de banco de dados, redes, hardware, sistemas operacionais e documentação. Também desenvolvo automações com Python para apoiar tarefas relacionadas a planilhas e processos internos.
+  </li>
+</ul>
 
 ---
 
@@ -95,6 +152,16 @@ Possuo experiência prática com suporte interno e externo, sistemas de ERP, man
     </ul>
   </li>
 </ul>
+
+<p align="center">
+  • 
+  <a href="https://github.com/eduardo-Rib">GitHub</a> 
+  • 
+  <a href="https://www.linkedin.com/in/eduardo-ribeiro-4b78002b2">LinkedIn</a> 
+  • 
+  <a href="https://www.instagram.com/dudu__rib">Instagram</a> 
+  •
+</p>
 
 
 <br>
