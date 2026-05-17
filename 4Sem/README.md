@@ -1,7 +1,7 @@
 # Nexa - 4º Semestre
 
 <p align="center">
-  <strong>2º semestre de 2025</strong> • 
+  <strong>API 4</strong> • <strong>4º Semestre</strong> • <strong>2025-2</strong> • 
   <a href="https://www.tecsysbrasil.com.br/">
     TecSys Brasil
   </a>
@@ -27,8 +27,22 @@
 
 ---
 
+## Cliente e parceiro acadêmico
+
+| Item | Descrição |
+|---|---|
+| Cliente | [TecSys Brasil](https://www.tecsysbrasil.com.br/) |
+| Área de atuação | Soluções para comércio exterior, tecnologia e processos aduaneiros |
+| Representante | Creonice Honório |
+| Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Produto | Nexa |
+
+---
+
 ## Sumário
 
+- [Identificação do projeto](#identificação-do-projeto)
+- [Cliente e parceiro acadêmico](#cliente-e-parceiro-acadêmico)
 - [Problema proposto](#problema-proposto)
 - [Solução desenvolvida](#solução-desenvolvida)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -41,17 +55,25 @@
 
 ## Problema proposto
 
-A elaboração da instrução de registro aduaneiro é um processo manual que exige atenção a informações como Part Number, classificação fiscal, fabricante, origem e endereço do fabricante. Quando esses dados são tratados manualmente, podem ocorrer erros de interpretação, descrições ambíguas, retrabalho e riscos de questionamentos, penalidades ou multas.
-
-O desafio proposto pela empresa parceira foi criar uma solução capaz de automatizar esse processo de forma inteligente, gerando descrições claras, precisas e compatíveis com exigências legais. A ferramenta precisava apoiar a equipe responsável, reduzir o esforço manual e aumentar a segurança das informações geradas para submissão à Receita Federal.
+A elaboração da instrução de registro aduaneiro é um processo manual que depende de dados técnicos como Part Number, classificação fiscal, fabricante, origem e endereço do fabricante.
+Quando essas informações são interpretadas manualmente, podem ocorrer erros, descrições ambíguas e retrabalho no preparo dos registros.
+Inconsistências nos dados ou nas descrições podem resultar em questionamentos, penalidades ou multas durante a análise do processo aduaneiro.
+A equipe responsável precisava reduzir o esforço manual e aumentar a segurança das informações enviadas para análise e submissão à Receita Federal.
 
 ---
 
 ## Solução desenvolvida
 
-A solução desenvolvida foi o Nexa, uma aplicação baseada em arquitetura orientada a eventos, com foco em automação, integração com inteligência artificial e comunicação em tempo real. O projeto foi dividido em três componentes principais: `Nexa-frontend`, `Nexa-api` e `Nexa-AI-Agents`.
+A equipe desenvolveu o Nexa, uma aplicação web orientada a eventos para apoiar a geração de instruções de registro aduaneiro.
+O projeto foi dividido em três componentes principais: `Nexa-frontend`, `Nexa-api` e `Nexa-AI-Agents`.
+A aplicação permite upload de documentos, extração de Part Numbers e processamento das informações com inteligência artificial.
+Os agentes de IA apoiam a busca e organização de dados técnicos relacionados aos produtos.
+Ao final do fluxo, o sistema gera descrições técnicas para auxiliar a análise e a submissão das informações.
 
-A aplicação permite o envio de documentos, a extração de Part Numbers, o processamento das informações com agentes de IA e a geração de descrições técnicas para apoiar a elaboração da instrução de registro aduaneiro. A comunicação entre os serviços ocorre por meio de APIs REST, WebSockets e Redis, garantindo maior desacoplamento entre os componentes.
+<details>
+  <summary>Detalhes da arquitetura</summary>
+
+A comunicação entre os serviços ocorre por meio de APIs REST, WebSockets e Redis, garantindo maior desacoplamento entre os componentes.
 
 <p align="center">
   <img 
@@ -103,6 +125,8 @@ Entre suas responsabilidades estão:
 - Comunicação com a API via HTTP REST;
 - Atualização em tempo real por WebSocket.
 
+</details>
+
 ---
 
 ## Tecnologias utilizadas
@@ -136,7 +160,12 @@ Entre suas responsabilidades estão:
 
 ## Minhas contribuições
 
-Neste projeto, atuei como integrante do time de desenvolvimento, com foco principal no backend e nos serviços relacionados à inteligência artificial. Minha participação envolveu o desenvolvimento de agentes, criação de rotas, extração de dados em documentos e pesquisa de alternativas para obtenção de informações técnicas de produtos.
+Neste projeto, atuei como Desenvolvedor Backend, com foco nos serviços de inteligência artificial, rotas da API e extração de dados.
+Na primeira sprint, desenvolvi o `description_writer_agent`, agente responsável por gerar uma descrição humanizada do produto.
+Na segunda sprint, desenvolvi a rota de upload de PDF e a lógica de extração dos Part Numbers por REGEX a partir dos pedidos de compra.
+Na terceira sprint, pesquisei alternativas para consulta de dados técnicos de Part Numbers, pois os agentes locais estavam demorando muito para retornar informações pela web.
+Testei web scraping em sites como Mouser, Findchips e Digikey, mas houve bloqueios e verificações de segurança.
+Também testei APIs como LCSC/JLCPCB e Mouser, avaliando limites gratuitos, custo e qualidade dos dados retornados.
 
 ### Desenvolvimento do agente de descrição
 
@@ -158,7 +187,7 @@ Na terceira sprint, fiquei responsável por pesquisar e testar alternativas para
 
 Durante essa etapa, encontrei dificuldades relacionadas às verificações de segurança e bloqueios desses sites, o que limitou a viabilidade do scraping. Também testei alternativas por meio de APIs, como a API da LCSC/JLCPCB e a API da Mouser.
 
-Apesar de conseguir acesso ao plano estudantil da API da Mouser, os dados retornados eram majoritariamente comerciais, não técnicos, o que não atendia completamente às necessidades do projeto. Além disso, algumas soluções pagas não eram viáveis para o contexto acadêmico, pois o limite gratuito seria consumido rapidamente.
+Apesar de conseguir acesso ao plano estudantil da API da Mouser, os dados retornados eram majoritariamente comerciais, não técnicos, o que não atendia completamente às necessidades do projeto. Além disso, algumas APIs pagas não eram viáveis para o contexto acadêmico, pois o limite gratuito seria consumido rapidamente.
 
 Essa investigação foi importante porque os agentes de IA locais estavam apresentando alto tempo de resposta na busca de dados técnicos pela web, chegando a demorar muito tempo para retornar informações de um único Part Number e, em alguns casos, não retornando dados úteis. A pesquisa por alternativas ajudou a equipe a avaliar os limites técnicos e práticos das abordagens disponíveis.
 
@@ -174,24 +203,24 @@ O projeto foi importante para aprofundar meus conhecimentos em backend, processa
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
-| Python | Sei fazer com autonomia | Desenvolvimento de funcionalidades backend e agentes de IA |
-| Flask | Sei fazer com autonomia | Criação de rotas e serviços da aplicação |
-| APIs REST | Sei fazer com autonomia | Desenvolvimento de endpoints para upload de PDF e processamento de dados |
-| REGEX | Sei fazer com autonomia | Extração de Part Numbers a partir de documentos PDF |
-| Ollama | Sei fazer com apoio | Integração com modelos de linguagem executados localmente |
-| Agentes de IA | Sei fazer com apoio | Desenvolvimento do `description_writer_agent` |
-| Prompt Engineering | Sei fazer com apoio | Estruturação de instruções para geração de descrições humanizadas |
-| Redis | Sei fazer com apoio | Compreensão da comunicação assíncrona entre serviços |
-| Celery | Sei fazer com apoio | Contato com processamento assíncrono de tarefas |
-| PostgreSQL | Sei fazer com apoio | Compreensão da persistência dos resultados da aplicação |
-| SQLAlchemy | Sei fazer com apoio | Contato com ORM para manipulação dos dados |
-| Socket.IO | Sei fazer com apoio | Compreensão do fluxo de atualização em tempo real |
-| Web Scraping | Sei fazer com apoio | Testes de extração de dados em sites de consulta de Part Numbers |
-| Integração com APIs externas | Sei fazer com apoio | Testes com APIs como Mouser e LCSC/JLCPCB |
-| Docker | Sei fazer com apoio | Execução da aplicação em ambiente conteinerizado |
-| Git e GitHub | Sei fazer com autonomia | Versionamento e colaboração no repositório |
-| Jira | Sei fazer com autonomia | Acompanhamento de tarefas e entregas durante as sprints |
-| Scrum | Sei fazer com autonomia | Participação no desenvolvimento incremental do projeto |
+| Python | Faço/uso com autonomia | Desenvolvimento de funcionalidades backend e agentes de IA |
+| Flask | Faço/uso com autonomia | Criação de rotas e serviços da aplicação |
+| APIs REST | Faço/uso com autonomia | Desenvolvimento de endpoints para upload de PDF e processamento de dados |
+| REGEX | Faço/uso com autonomia | Extração de Part Numbers a partir de documentos PDF |
+| Ollama | Faço/uso com ajuda | Integração com modelos de linguagem executados localmente |
+| Agentes de IA | Faço/uso com ajuda | Desenvolvimento do `description_writer_agent` |
+| Prompt Engineering | Faço/uso com ajuda | Estruturação de instruções para geração de descrições humanizadas |
+| Redis | Faço/uso com ajuda | Compreensão da comunicação assíncrona entre serviços |
+| Celery | Faço/uso com ajuda | Contato com processamento assíncrono de tarefas |
+| PostgreSQL | Faço/uso com ajuda | Compreensão da persistência dos resultados da aplicação |
+| SQLAlchemy | Faço/uso com ajuda | Contato com ORM para manipulação dos dados |
+| Socket.IO | Faço/uso com ajuda | Compreensão do fluxo de atualização em tempo real |
+| Web Scraping | Faço/uso com ajuda | Testes de extração de dados em sites de consulta de Part Numbers |
+| Integração com APIs externas | Faço/uso com ajuda | Testes com APIs como Mouser e LCSC/JLCPCB |
+| Docker | Faço/uso com ajuda | Execução da aplicação em ambiente conteinerizado |
+| Git e GitHub | Faço/uso com autonomia | Versionamento e colaboração no repositório |
+| Jira | Faço/uso com autonomia | Acompanhamento de tarefas e entregas durante as sprints |
+| Scrum | Faço/uso com autonomia | Participação no desenvolvimento incremental do projeto |
 
 ---
 
@@ -199,14 +228,14 @@ O projeto foi importante para aprofundar meus conhecimentos em backend, processa
 
 | Soft skill | Situação em que foi exercitada |
 |---|---|
-| Investigação técnica | Pesquisei alternativas para obtenção de dados técnicos por scraping e APIs externas |
-| Resolução de problemas | Busquei soluções para reduzir o tempo de resposta dos agentes de IA locais |
-| Persistência | Mesmo com bloqueios em sites e limitações de APIs, continuei testando abordagens alternativas para o problema |
-| Pensamento crítico | Avaliei a viabilidade técnica e econômica das soluções encontradas, considerando limites gratuitos e qualidade dos dados retornados |
-| Colaboração | Trabalhei em conjunto com a equipe para integrar minhas entregas ao fluxo geral da aplicação |
-| Adaptabilidade | Precisei ajustar as abordagens conforme as limitações técnicas surgiram durante as sprints |
-| Aprendizado contínuo | Aprofundei conhecimentos em IA local, agentes, scraping, APIs externas e arquitetura orientada a eventos |
-| Comunicação técnica | Compartilhei com a equipe os resultados dos testes, limitações encontradas e alternativas analisadas |
+| Investigação técnica | Pesquisei alternativas para reduzir o tempo de resposta dos agentes locais na busca de dados técnicos |
+| Resolução de problemas | Desenvolvi a rota de upload de PDF e a extração de Part Numbers por REGEX para automatizar uma etapa manual do fluxo |
+| Persistência | Mesmo com bloqueios em Mouser, Findchips e Digikey, continuei testando scraping e APIs externas para encontrar alternativas viáveis |
+| Pensamento crítico | Avaliei APIs pagas e gratuitas considerando limite de uso, custo acadêmico e diferença entre dados comerciais e técnicos |
+| Colaboração | Trabalhei com a equipe para integrar o `description_writer_agent` e a extração de Part Numbers ao fluxo geral da aplicação |
+| Adaptabilidade | Ajustei as abordagens de consulta quando scraping e APIs não atenderam totalmente às necessidades técnicas do projeto |
+| Aprendizado contínuo | Aprofundei conhecimentos em agentes de IA, prompt engineering, scraping, APIs externas e arquitetura orientada a eventos |
+| Comunicação técnica | Expliquei para a equipe por que scraping e algumas APIs não atendiam completamente à necessidade de dados técnicos |
 
 ---
 
@@ -216,6 +245,6 @@ O projeto foi importante para aprofundar meus conhecimentos em backend, processa
 
 | 🏠 Página inicial | ⬅️ Projeto anterior | ➡️ Próximo projeto |
 |---|---|---|
-| [README](../README.md) | [API 3](../3Sem/README.md) | [API 5](../5Sem/README.md) |
+| [README](../README.md) | [API 3](../3Sem/README.md) | A preencher |
 
 </div>
