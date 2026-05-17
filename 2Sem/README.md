@@ -1,7 +1,7 @@
 # IDScan - 2º Semestre
 
 <p align="center">
-  <strong>2º semestre de 2024</strong> • 
+  <strong>API 2</strong> • <strong>2º Semestre</strong> • <strong>2024-2</strong> • 
   <a href="https://fatecsjc-prd.azurewebsites.net/">
     FATEC São José dos Campos - Prof. Jessen Vidal
   </a>
@@ -27,8 +27,20 @@
 
 ---
 
+## Parceiro acadêmico
+
+| Item | Descrição |
+|---|---|
+| Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Contexto | Projeto acadêmico desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas |
+| Produto | IDScan |
+
+---
+
 ## Sumário
 
+- [Identificação do projeto](#identificação-do-projeto)
+- [Parceiro acadêmico](#parceiro-acadêmico)
 - [Problema proposto](#problema-proposto)
 - [Solução desenvolvida](#solução-desenvolvida)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -41,17 +53,20 @@
 
 ## Problema proposto
 
-O desafio consistia em desenvolver uma aplicação desktop em Java capaz de extrair informações de imagens de documentos e armazená-las em um banco de dados local. A proposta envolvia o uso de processamento de imagem e inteligência artificial para automatizar a leitura de documentos físicos.
-
-A equipe escolheu trabalhar com documentos de identidade, mais especificamente o RG, com o objetivo de identificar e organizar informações relevantes presentes na imagem, como dados pessoais do documento, sem depender de APIs externas.
+Documentos físicos de identidade, como o RG, possuem informações importantes que frequentemente precisam ser digitalizadas, organizadas e armazenadas.
+Fazer a leitura e o cadastro manual desses dados é um processo demorado, repetitivo e sujeito a erros de digitação ou interpretação.
+Depender de APIs externas para extrair essas informações poderia gerar custos, exigir conexão com a internet e criar riscos de privacidade no envio de documentos pessoais.
+Por isso, havia a necessidade de processar a imagem localmente, identificar os dados relevantes e organizá-los em um banco relacional.
 
 ---
 
 ## Solução desenvolvida
 
-A solução desenvolvida foi o IDScan, um aplicativo Java Desktop voltado ao processamento de imagens de documentos de identidade. O sistema realiza a leitura da imagem do RG, extrai o texto presente no documento e organiza os dados identificados para posterior armazenamento e edição em um banco de dados MySQL local.
-
-Todas as operações do aplicativo foram pensadas para funcionar localmente, desde o processamento das informações até a persistência dos dados. Para melhorar a precisão e o desempenho, a equipe optou por utilizar o Tesseract OCR para extrair o texto bruto da imagem e um modelo de linguagem executado localmente com Ollama para identificar os dados relevantes dentro do texto extraído.
+A equipe desenvolveu o IDScan, uma aplicação desktop em Java voltada ao processamento de imagens de RG.
+O sistema permite importar e processar a imagem do documento para extrair o texto por meio do Tesseract OCR.
+Após a extração, a aplicação utiliza apoio de IA local com Ollama para identificar os dados relevantes dentro do texto obtido.
+As informações localizadas são organizadas para armazenamento em um banco MySQL local.
+O sistema também permite a consulta e edição dos dados persistidos, mantendo o processamento sem dependência de APIs externas.
 
 ---
 
@@ -72,7 +87,12 @@ Todas as operações do aplicativo foram pensadas para funcionar localmente, des
 
 ## Minhas contribuições
 
-Neste projeto, atuei como integrante do time de desenvolvimento, contribuindo principalmente com pesquisas, testes de modelos de inteligência artificial e construção de consultas para o banco de dados MySQL. Minha participação foi voltada tanto para a investigação técnica da melhor abordagem para extração de dados quanto para o apoio na persistência das informações tratadas pela aplicação.
+Neste projeto, atuei como Desenvolvedor, contribuindo principalmente com pesquisas, testes de modelos de inteligência artificial e construção de consultas para o banco de dados MySQL.
+Na primeira sprint, testei modelos visuais de IA executados com Ollama, incluindo `MiniCPM-V` e `LLaVA`, para avaliar a precisão na extração de informações de documentos.
+Durante esses testes, aprendi sobre integração com Ollama e construção de prompts voltados à extração de dados.
+A equipe decidiu usar Tesseract OCR para extrair o texto bruto e um modelo de linguagem para localizar os dados nesse texto, por ser uma abordagem mais rápida e precisa em hardwares mais fracos.
+Na segunda e terceira sprint, contribuí com queries SQL para MySQL, apoiando o armazenamento, a consulta e a manipulação dos dados extraídos.
+Também participei das decisões técnicas sobre a abordagem de extração e persistência da aplicação.
 
 ### Testes com modelos de inteligência artificial
 
@@ -102,16 +122,16 @@ O projeto foi importante para ampliar meu contato com aplicações Java Desktop,
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
-| Java | Sei fazer com apoio | Participação no desenvolvimento da aplicação desktop |
-| MySQL | Sei fazer com autonomia | Criação de queries para armazenamento, consulta e manipulação dos dados |
-| SQL | Sei fazer com autonomia | Apoio na organização e persistência das informações extraídas dos documentos |
-| Ollama | Sei fazer com apoio | Testes e execução local de modelos de inteligência artificial |
-| Prompt Engineering | Sei fazer com apoio | Criação de prompts para orientar modelos na extração de informações estruturadas |
-| Modelos de IA visuais | Sei fazer com apoio | Testes com modelos como MiniCPM-V e LLaVA durante a primeira sprint |
-| Tesseract OCR | Sei fazer com apoio | Compreensão do fluxo de extração de texto bruto a partir das imagens dos documentos |
-| Git e GitHub | Sei fazer com autonomia | Versionamento do código e colaboração no repositório |
-| Jira | Sei fazer com autonomia | Acompanhamento de tarefas e organização do desenvolvimento por sprint |
-| Figma | Sei fazer com apoio | Consulta e apoio na visualização do design planejado para as telas |
+| Java | Faço/uso com ajuda | Participação no desenvolvimento da aplicação desktop |
+| MySQL | Faço/uso com autonomia | Criação de queries para armazenamento, consulta e manipulação dos dados |
+| SQL | Faço/uso com autonomia | Apoio na organização e persistência das informações extraídas dos documentos |
+| Ollama | Faço/uso com ajuda | Testes e execução local de modelos de inteligência artificial |
+| Prompt Engineering | Faço/uso com ajuda | Criação de prompts para orientar modelos na extração de informações estruturadas |
+| Modelos de IA visuais | Faço/uso com ajuda | Testes com modelos como MiniCPM-V e LLaVA durante a primeira sprint |
+| Tesseract OCR | Faço/uso com ajuda | Compreensão do fluxo de extração de texto bruto a partir das imagens dos documentos |
+| Git e GitHub | Faço/uso com autonomia | Versionamento do código e colaboração no repositório |
+| Jira | Faço/uso com autonomia | Acompanhamento de tarefas e organização do desenvolvimento por sprint |
+| Figma | Faço/uso com ajuda | Consulta e apoio na visualização do design planejado para as telas |
 
 ---
 
@@ -119,12 +139,12 @@ O projeto foi importante para ampliar meu contato com aplicações Java Desktop,
 
 | Soft skill | Situação em que foi exercitada |
 |---|---|
-| Investigação técnica | Pesquisei e testei diferentes modelos de IA para avaliar qual abordagem seria mais adequada ao problema proposto |
-| Pensamento crítico | Analisei, junto com a equipe, as limitações dos modelos visuais e a necessidade de uma solução mais precisa e viável |
-| Colaboração | Trabalhei em conjunto com os demais integrantes para adaptar a solução técnica ao longo das sprints |
-| Adaptabilidade | Precisei mudar o foco inicial dos testes com modelos visuais para uma abordagem híbrida com OCR e modelo de linguagem |
-| Organização | Apoiei o desenvolvimento com queries e estruturação dos dados utilizados pela aplicação |
-| Aprendizado contínuo | Desenvolvi novos conhecimentos sobre Ollama, OCR, modelos de IA locais e integração dessas ferramentas em uma aplicação |
+| Investigação técnica | Comparei modelos visuais como MiniCPM-V e LLaVA para avaliar a precisão na extração de informações de documentos |
+| Pensamento crítico | Participei da análise que levou à troca do modelo visual puro por uma abordagem com Tesseract OCR e modelo de linguagem |
+| Colaboração | Trabalhei com a equipe nas decisões técnicas sobre extração local, persistência dos dados e viabilidade da solução |
+| Adaptabilidade | Adaptei-me ao desenvolvimento desktop com Java e MySQL e à mudança de estratégia para OCR + IA local |
+| Organização | Criei queries SQL para apoiar o armazenamento, a consulta e a manipulação dos dados extraídos no MySQL |
+| Aprendizado contínuo | Aprendi sobre Ollama, construção de prompts, OCR e integração dessas ferramentas em uma aplicação desktop |
 
 ---
 
