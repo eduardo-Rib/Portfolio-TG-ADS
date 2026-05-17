@@ -8,7 +8,7 @@
 <br>
 
 
-<h2 align="center">Sobre Mim 🧑‍💻</h2>
+<h2 align="center">Sobre Mim</h2>
 
 <p align="center">
   <img 
@@ -35,7 +35,7 @@ Sou Eduardo Fonseca Ribeiro, estudante de Análise e Desenvolvimento de Sistemas
 
 ---
 
-<h3>🎓 Histórico Acadêmico</h3>
+<h3>Histórico Acadêmico</h3>
 
 <ul>
   <li>
@@ -69,7 +69,7 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
 
 ---
 
-<h3>💼 Histórico Profissional</h3>
+<h3>Histórico Profissional</h3>
 
 <ul>
   <li>
@@ -127,7 +127,7 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
 
 ---
 
-<h3>🛠 Meus Principais Conhecimentos</h3>
+<h3>Meus Principais Conhecimentos</h3>
 
 <ul>
   <li>
@@ -178,7 +178,7 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
 <br>
 
 
-<h2 align="center"> Meus Projetos 📂</h2>
+<h2 align="center"> Meus Projetos</h2>
 
 <p align="justify">
 Nesta seção estão reunidos os projetos desenvolvidos ao longo dos semestres do curso de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal.
