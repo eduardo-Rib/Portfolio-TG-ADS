@@ -1,7 +1,7 @@
 # InsightFlow - 3º Semestre
 
 <p align="center">
-  <strong>1º semestre de 2025</strong> • 
+  <strong>API 3</strong> • <strong>3º Semestre</strong> • <strong>2025-1</strong> • 
   <a href="https://www.domrock.net/">
     Dom Rock
   </a>
@@ -27,8 +27,22 @@
 
 ---
 
+## Cliente e parceiro acadêmico
+
+| Item | Descrição |
+|---|---|
+| Cliente | [Dom Rock](https://www.domrock.net/) |
+| Área de atuação | Tecnologia, dados, inteligência artificial e soluções para análise de informações |
+| Representante | Felipe Santos |
+| Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Produto | InsightFlow |
+
+---
+
 ## Sumário
 
+- [Identificação do projeto](#identificação-do-projeto)
+- [Cliente e parceiro acadêmico](#cliente-e-parceiro-acadêmico)
 - [Problema proposto](#problema-proposto)
 - [Solução desenvolvida](#solução-desenvolvida)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -41,17 +55,24 @@
 
 ## Problema proposto
 
-O comércio exterior brasileiro gera grande volume de dados públicos, porém a análise dessas informações pode ser complexa para usuários sem conhecimento técnico em tratamento de dados, consultas e manipulação de bases extensas.
-
-A empresa parceira propôs o desenvolvimento de uma plataforma web capaz de disponibilizar informações sobre importações e exportações dos estados brasileiros de forma acessível, organizada e visual. O objetivo era permitir que usuários identificassem estados e municípios em ascensão, estagnação ou declínio no mercado internacional.
+O comércio exterior brasileiro gera um grande volume de dados públicos sobre importações e exportações, distribuídos em bases extensas e com muitos recortes de análise.
+Esses dados podem ser complexos para usuários sem domínio técnico em tratamento, organização e consulta de informações.
+Análises manuais exigem manipulação de planilhas, filtragem de registros e interpretação de bases amplas, o que dificulta a identificação de padrões.
+Havia dificuldade para reconhecer estados e municípios em ascensão, estagnação ou declínio no mercado internacional.
+Também era necessário apoiar decisões com indicadores compreensíveis, visuais e acessíveis para diferentes perfis de usuário.
 
 ---
 
 ## Solução desenvolvida
 
-A solução desenvolvida foi o InsightFlow, uma plataforma web voltada à análise de dados de comércio exterior brasileiro. O sistema apresenta informações de importação e exportação por meio de gráficos, rankings, filtros, comparações comerciais e indicadores estatísticos.
+A equipe desenvolveu o InsightFlow, uma plataforma web voltada à análise de dados de comércio exterior brasileiro.
+O sistema permite visualizar importações e exportações por meio de gráficos, rankings e painéis de indicadores.
+A aplicação oferece filtros por estado, município, produto, NCM, SH4, país e setor econômico.
+Também foram desenvolvidas análises estatísticas para apoiar a interpretação dos dados históricos.
+Além disso, a plataforma conta com previsão de tendências utilizando SARIMA para apoiar análises futuras com base nas movimentações comerciais.
 
-A aplicação permite visualizar dados por estado, município, produto, NCM, SH4, país e setor econômico. Além disso, o projeto também contou com funcionalidades de previsão de tendências, utilizando modelos estatísticos para apoiar análises futuras com base no histórico de movimentações comerciais.
+<details>
+  <summary>Detalhes da solução</summary>
 
 Entre as principais funcionalidades desenvolvidas estão:
 
@@ -64,6 +85,8 @@ Entre as principais funcionalidades desenvolvidas estão:
 - Previsão de tendências utilizando o modelo estatístico SARIMA.
 
 Para a previsão de tendências, a equipe optou pelo uso do modelo SARIMA por se tratar de uma abordagem adequada para séries temporais mensais com tendência e sazonalidade. A solução também utilizou interpolação linear para tratar valores ausentes, permitindo a geração de previsões com até 24 meses de antecedência.
+
+</details>
 
 ---
 
@@ -90,7 +113,12 @@ Para a previsão de tendências, a equipe optou pelo uso do modelo SARIMA por se
 
 ## Minhas contribuições
 
-Neste projeto, atuei como integrante do time de desenvolvimento, com foco principal no backend do sistema. Minha participação envolveu o desenvolvimento de APIs, apoio no tratamento e exposição de dados de comércio exterior, além da criação de funcionalidades voltadas à análise estatística e previsão de tendências.
+Neste projeto, atuei como Desenvolvedor Backend, com foco no tratamento, organização e exposição de dados de comércio exterior.
+Na primeira sprint, desenvolvi gráficos e indicadores relacionados ao processo de limpeza das planilhas do Comex Stat.
+Esses indicadores exibiam informações como linhas deletadas, registros inválidos e NCMs inválidos.
+Na segunda sprint, desenvolvi a API de estados, com endpoints de consulta para dados de importação e exportação por estado brasileiro.
+A API retornava rankings, valores absolutos de exportação/importação e dinheiro movimentado.
+Na terceira sprint, participei do sistema de previsão chamado pela equipe de “Vidente”, criando ferramentas de análise histórica, rankings e projeções com base em dados comerciais.
 
 ### Desenvolvimento de gráficos da limpeza dos dados
 
@@ -134,19 +162,19 @@ O projeto foi importante para aprofundar meus conhecimentos em desenvolvimento b
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
-| Python | Sei fazer com autonomia | Desenvolvimento de funcionalidades backend e manipulação de dados |
-| Flask | Sei fazer com autonomia | Criação de APIs para consulta e exposição dos dados de comércio exterior |
-| Pandas | Sei fazer com autonomia | Apoio no tratamento, organização e análise das bases do Comex Stat |
-| PostgreSQL | Sei fazer com autonomia | Consulta e estruturação de dados utilizados pela aplicação |
-| SQL | Sei fazer com autonomia | Criação de consultas para retorno de indicadores, rankings e filtros |
-| APIs REST | Sei fazer com autonomia | Desenvolvimento da API de estados e endpoints para consumo pelo frontend |
-| StatsModels | Sei fazer com apoio | Participação em funcionalidades estatísticas e modelos de previsão |
-| Séries temporais | Sei fazer com apoio | Apoio no desenvolvimento de análises de tendência e previsão com SARIMA |
-| React | Sei fazer com apoio | Integração com o frontend e compreensão do consumo dos dados pela interface |
-| TypeScript | Sei fazer com apoio | Contato com a estrutura frontend utilizada na aplicação |
-| Git e GitHub | Sei fazer com autonomia | Versionamento, colaboração e organização do desenvolvimento |
-| Jira | Sei fazer com autonomia | Acompanhamento das tarefas e entregas durante as sprints |
-| Scrum | Sei fazer com autonomia | Participação no desenvolvimento incremental do projeto ao longo das sprints |
+| Python | Faço/uso com autonomia | Desenvolvimento de funcionalidades backend e manipulação de dados |
+| Flask | Faço/uso com autonomia | Criação de APIs para consulta e exposição dos dados de comércio exterior |
+| Pandas | Faço/uso com autonomia | Apoio no tratamento, organização e análise das bases do Comex Stat |
+| PostgreSQL | Faço/uso com autonomia | Consulta e estruturação de dados utilizados pela aplicação |
+| SQL | Faço/uso com autonomia | Criação de consultas para retorno de indicadores, rankings e filtros |
+| APIs REST | Faço/uso com autonomia | Desenvolvimento da API de estados e endpoints para consumo pelo frontend |
+| StatsModels | Faço/uso com ajuda | Participação em funcionalidades estatísticas e modelos de previsão |
+| Séries temporais | Faço/uso com ajuda | Apoio no desenvolvimento de análises de tendência e previsão com SARIMA |
+| React | Faço/uso com ajuda | Integração com o frontend e compreensão do consumo dos dados pela interface |
+| TypeScript | Faço/uso com ajuda | Contato com a estrutura frontend utilizada na aplicação |
+| Git e GitHub | Faço/uso com autonomia | Versionamento, colaboração e organização do desenvolvimento |
+| Jira | Faço/uso com autonomia | Acompanhamento das tarefas e entregas durante as sprints |
+| Scrum | Faço/uso com autonomia | Participação no desenvolvimento incremental do projeto ao longo das sprints |
 
 ---
 
@@ -154,13 +182,13 @@ O projeto foi importante para aprofundar meus conhecimentos em desenvolvimento b
 
 | Soft skill | Situação em que foi exercitada |
 |---|---|
-| Pensamento analítico | Desenvolvi funcionalidades voltadas à interpretação de dados de comércio exterior, rankings, indicadores e tendências |
-| Resolução de problemas | Atuei no tratamento de dados inconsistentes e na criação de soluções para organizar informações de bases extensas |
-| Colaboração | Trabalhei junto à equipe para integrar backend, banco de dados e frontend ao longo das sprints |
-| Organização | Estruturei entregas por sprint, principalmente nas APIs e funcionalidades de análise de dados |
-| Adaptabilidade | Precisei lidar com diferentes tipos de dados, regras de negócio e demandas estatísticas durante o projeto |
-| Aprendizado contínuo | Aprofundei conhecimentos em análise de dados, APIs, PostgreSQL, séries temporais e modelos de previsão |
-| Visão técnica | Contribuí para transformar dados brutos em informações organizadas e úteis para visualização e tomada de decisão |
+| Pensamento analítico | Transformei dados de comércio exterior em indicadores, rankings e análises para apoiar a interpretação dos usuários |
+| Resolução de problemas | Lidei com planilhas do Comex Stat contendo linhas inválidas, registros inconsistentes e NCMs inválidos |
+| Colaboração | Trabalhei com a equipe para estruturar endpoints da API de estados e disponibilizar dados consumíveis pelo frontend |
+| Organização | Estruturei entregas por sprint, principalmente nas APIs, indicadores de limpeza e ferramentas do sistema “Vidente” |
+| Adaptabilidade | Adaptei análises estatísticas e consultas backend para formatos compreensíveis e utilizáveis pelo frontend |
+| Aprendizado contínuo | Aprofundei conhecimentos em análise de dados, PostgreSQL, APIs REST, séries temporais e previsão com SARIMA |
+| Visão técnica | Participei da construção do sistema de previsão, conectando dados históricos, indicadores e projeções para tomada de decisão |
 
 ---
 
