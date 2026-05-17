@@ -25,7 +25,7 @@
 
 <ul>
   <li><strong>Nome completo:</strong> Eduardo Fonseca Ribeiro</li>
-  <li><strong>Idade:</strong> idade a preencher</li>
+  <li><strong>Idade:</strong> 20 anos</li>
   <li><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos - Prof. Jessen Vidal</li>
 </ul>
 
