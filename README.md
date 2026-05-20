@@ -129,6 +129,32 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
 
 <h3>Meus Principais Conhecimentos</h3>
 
+**Principais Linguagens**  
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,cs,cpp,javascript,typescript,html,css" height="45" />
+</div>
+
+**Frameworks & Ferramentas**  
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=react,bootstrap,next,nodejs,flask,fastapi,github,git" height="45" />
+</div>
+
+**Bancos de Dados:**  
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongo" height="45" />
+</div>
+
+**Infraestrutura e DevOps::**  
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=docker,aws," height="45" />
+</div>
+
+</br>
+
+<details>
+
+  <summary>Conhecimentos detalhados</summary>
+
 <ul>
   <li>
     <strong>Linguagens de programação:</strong>
@@ -174,6 +200,9 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
     </ul>
   </li>
 </ul>
+
+</details>
+
 
 <br>
 
