@@ -1,10 +1,7 @@
 # Nexa - 4º Semestre
 
 <p align="center">
-  <strong>API 4</strong> • <strong>4º Semestre</strong> • <strong>2025-2</strong> • 
-  <a href="https://www.tecsysbrasil.com.br/">
-    TecSys Brasil
-  </a>
+  <strong>API 4</strong> • <strong>4º Semestre</strong> • <strong>2025-2</strong>
 </p>
 
 <p align="center">
@@ -132,6 +129,31 @@ Entre suas responsabilidades estão:
 
 ## Tecnologias utilizadas
 
+</br>
+
+<h4 align="center">Backend, IA e Banco de Dados:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,flask,postgres,redis,regex" height="45" />
+</div>
+
+<h4 align="center">Frontend:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,react,vite,html,tailwind" height="45" />
+</div>
+
+<h4 align="center">Infraestrutura e Ferramentas:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,figma" height="45" />
+</div>
+
+</br>
+
+<details>
+  <summary>Tecnologias detalhadas</summary>
+
 | Tecnologia | Aplicação no projeto |
 |---|---|
 | Python | Linguagem utilizada no backend e nos agentes de IA |
@@ -156,6 +178,8 @@ Entre suas responsabilidades estão:
 | Figma | Apoio na prototipação das interfaces |
 | Jira | Organização das tarefas e acompanhamento das sprints |
 | Scrum | Organização do trabalho em equipe durante o desenvolvimento |
+
+</details>
 
 ---
 
