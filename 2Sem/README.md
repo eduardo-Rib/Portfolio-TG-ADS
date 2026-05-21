@@ -1,10 +1,7 @@
 # IDScan - 2º Semestre
 
 <p align="center">
-  <strong>API 2</strong> • <strong>2º Semestre</strong> • <strong>2024-2</strong> • 
-  <a href="https://fatecsjc-prd.azurewebsites.net/">
-    FATEC São José dos Campos - Prof. Jessen Vidal
-  </a>
+  <strong>API 2</strong> • <strong>2º Semestre</strong> • <strong>2024-2</strong>
 </p>
 
 <p align="center">
@@ -73,6 +70,19 @@ O sistema também permite a consulta e edição dos dados persistidos, mantendo 
 
 ## Tecnologias utilizadas
 
+</br>
+
+<h4 align="center">Principais tecnologias:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,mysql,git,github,vscode,figma" height="45" />
+</div>
+
+</br>
+
+<details>
+  <summary>Tecnologias detalhadas</summary>
+
 | Tecnologia | Aplicação no projeto |
 |---|---|
 | Java | Linguagem utilizada para desenvolvimento da aplicação desktop |
@@ -83,6 +93,8 @@ O sistema também permite a consulta e edição dos dados persistidos, mantendo 
 | Jira | Gerenciamento das tarefas e acompanhamento das sprints |
 | VS Code | Ambiente utilizado como apoio ao desenvolvimento |
 | Figma | Criação e visualização prévia do design das telas |
+
+</details>
 
 ---
 
