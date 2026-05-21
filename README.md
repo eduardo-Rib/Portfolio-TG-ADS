@@ -219,7 +219,7 @@ Nesta seção estão reunidos os projetos desenvolvidos ao longo dos semestres d
 | --- | --- | --- | --- | --- |
 | Horus | 1º Semestre — 2024-1 | FATEC São José dos Campos - Prof. Jessen Vidal | Site educacional sobre Metodologia Ágil, com conteúdos, avaliações, feedbacks e área administrativa. | [1Sem/README.md](./1Sem/README.md) |
 | IDScan | 2º Semestre — 2024-2 | FATEC São José dos Campos - Prof. Jessen Vidal | Aplicação desktop em Java para extração de informações de RG por OCR/IA local e armazenamento em MySQL. | [2Sem/README.md](./2Sem/README.md) |
-| InsightFlow | 3º Semestre — 2025-1 | Dom Rock | Plataforma web para análise de importações e exportações brasileiras, com gráficos, rankings, filtros, indicadores e previsões. | [3Sem/README.md](./3Sem/README.md) |
+| InsightFlow | 3º Semestre — 2025-1 | FATEC São José dos Campos - Prof. Jessen Vidal | Plataforma web para análise de importações e exportações brasileiras, com gráficos, rankings, filtros, indicadores e previsões. | [3Sem/README.md](./3Sem/README.md) |
 | Nexa | 4º Semestre — 2025-2 | TecSys Brasil | Aplicação web com backend, frontend e agentes de IA para apoiar a geração de instruções de registro aduaneiro. | [4Sem/README.md](./4Sem/README.md) |
 
 <p align="justify">
