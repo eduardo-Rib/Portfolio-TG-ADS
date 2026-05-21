@@ -64,7 +64,7 @@ Sou Eduardo Fonseca Ribeiro, estudante de Análise e Desenvolvimento de Sistemas
 <h3>Motivação para Entrar na FATEC</h3>
 
 <p align="justify">
-Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e tecnológica, com projetos aplicados e forte conexão com o mercado de trabalho. Além disso, meu pai estudou na FATEC de São José dos Campos, influência familiar que também contribuiu para minha escolha pela instituição.
+Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e tecnológica, com projetos aplicados e forte conexão com o mercado de trabalho. Além disso, meu pai estudou logistica na FATEC de São José dos Campos, influência familiar que também contribuiu para minha escolha pela instituição.
 </p>
 
 ---
@@ -113,8 +113,6 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
 
 ---
 
-<h3>Informações de Contato</h3>
-
 <p align="center">
   • 
   <a href="https://github.com/eduardo-Rib">GitHub</a> 
@@ -127,25 +125,27 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
 
 ---
 
-<h3>Meus Principais Conhecimentos</h3>
+<h2 align="center">Principais Conhecimentos</h2>
 
-**Principais Linguagens**  
-<div align="left">
+</br>
+
+<h4 align="center">Linguagens de programação:</h4>  
+<div align="center">
   <img src="https://skillicons.dev/icons?i=python,java,cs,cpp,javascript,typescript,html,css" height="45" />
 </div>
 
-**Frameworks & Ferramentas**  
-<div align="left">
+<h4 align="center">Frameworks & Ferramentas</h4>
+<div align="center">
   <img src="https://skillicons.dev/icons?i=react,bootstrap,next,nodejs,flask,fastapi,github,git" height="45" />
 </div>
 
-**Bancos de Dados:**  
-<div align="left">
+<h4 align="center">Bancos de Dados:</h4>
+<div align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongo" height="45" />
 </div>
 
-**Infraestrutura e DevOps::**  
-<div align="left">
+<h4 align="center">Infraestrutura e DevOps:</h4>
+<div align="center">
   <img src="https://skillicons.dev/icons?i=docker,aws," height="45" />
 </div>
 
