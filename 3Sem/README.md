@@ -28,8 +28,7 @@
 
 | Item | Descrição |
 |---|---|
-| Cliente | [Fatec São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
-| Área de atuação | Tecnologia, dados, inteligência artificial e soluções para análise de informações |
+| Parceiro acadêmico | [Fatec São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
 | Representante | Prof. Marcus Nascimento (Coordenador curso de logística) |
 | Equipe | Titus Systems |
 | Produto | InsightFlow |

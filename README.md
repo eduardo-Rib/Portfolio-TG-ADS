@@ -111,7 +111,7 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
   </li>
 </ul>
 
----
+</br>
 
 <p align="center">
   • 
@@ -123,7 +123,7 @@ Escolhi a FATEC por ser uma instituição reconhecida pela formação prática e
   •
 </p>
 
----
+</br>
 
 <h2 align="center">Principais Conhecimentos</h2>
 
