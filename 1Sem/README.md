@@ -1,10 +1,7 @@
 # Horus - 1º Semestre
 
 <p align="center">
-  <strong>API 1</strong> • <strong>1º Semestre</strong> • <strong>2024-1</strong> • 
-  <a href="https://fatecsjc-prd.azurewebsites.net/">
-    FATEC São José dos Campos - Prof. Jessen Vidal
-  </a>
+  <strong>API 1</strong> • <strong>1º Semestre</strong> • <strong>2024-1</strong>
 </p>
 
 <p align="center">
@@ -74,6 +71,19 @@ Além disso, foi criada uma área administrativa para consulta dos registros ger
 
 ## Tecnologias utilizadas
 
+</br>
+
+<h4 align="center">Principais tecnologias:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,py,flask,git,github" height="45" />
+</div>
+
+</br>
+
+<details>
+  <summary>Tecnologias detalhadas</summary>
+
 | Tecnologia | Aplicação no projeto |
 |---|---|
 | HTML | Estruturação das páginas de conteúdo, avaliação, feedback e área administrativa |
@@ -87,6 +97,8 @@ Além disso, foi criada uma área administrativa para consulta dos registros ger
 | Flask-Bcrypt | Tratamento seguro de senhas no fluxo de autenticação |
 | Git e GitHub | Versionamento, organização e publicação do repositório |
 | Scrum | Organização do trabalho em equipe durante as sprints |
+
+</details>
 
 ---
 
