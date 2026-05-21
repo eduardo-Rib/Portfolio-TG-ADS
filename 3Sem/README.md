@@ -1,10 +1,7 @@
 # InsightFlow - 3º Semestre
 
 <p align="center">
-  <strong>API 3</strong> • <strong>3º Semestre</strong> • <strong>2025-1</strong> • 
-  <a href="https://www.domrock.net/">
-    Dom Rock
-  </a>
+  <strong>API 3</strong> • <strong>3º Semestre</strong> • <strong>2025-1</strong>
 </p>
 
 <p align="center">
@@ -31,10 +28,9 @@
 
 | Item | Descrição |
 |---|---|
-| Cliente | [Dom Rock](https://www.domrock.net/) |
+| Cliente | [Fatec São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
 | Área de atuação | Tecnologia, dados, inteligência artificial e soluções para análise de informações |
-| Representante | Felipe Santos |
-| Parceiro acadêmico | [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/) |
+| Representante | Prof. Marcus Nascimento (Coordenador curso de logística) |
 | Equipe | Titus Systems |
 | Produto | InsightFlow |
 
@@ -93,6 +89,31 @@ Para a previsão de tendências, a equipe optou pelo uso do modelo SARIMA por se
 
 ## Tecnologias utilizadas
 
+</br>
+
+<h4 align="center">Backend e Dados:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,flask,postgres" height="45" />
+</div>
+
+<h4 align="center">Frontend:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,react,vite,html,tailwind" height="45" />
+</div>
+
+<h4 align="center">Ferramentas:</h4>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,figma" height="45" />
+</div>
+
+</br>
+
+<details>
+  <summary>Tecnologias detalhadas</summary>
+
 | Tecnologia | Aplicação no projeto |
 |---|---|
 | Python | Linguagem utilizada no backend e no processamento de dados |
@@ -109,6 +130,8 @@ Para a previsão de tendências, a equipe optou pelo uso do modelo SARIMA por se
 | Figma | Apoio na prototipação e visualização das telas |
 | Jira | Organização das tarefas e acompanhamento das sprints |
 | Scrum | Organização do trabalho em equipe durante o desenvolvimento |
+
+</details>
 
 ---
 
